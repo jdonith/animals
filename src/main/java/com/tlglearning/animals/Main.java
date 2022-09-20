@@ -1,13 +1,15 @@
 package com.tlglearning.animals;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
-
 public class Main {
 
+
+
   public static void main(String[] args) {
+
+    new Dog();
+
+
+    /*
     List<Wolf> wolves = new ArrayList<>();
     wolves.add(new Wolf());
     wolves.add(new Wolf());
@@ -26,6 +28,8 @@ public class Main {
         ((Dog) w).rollOver();
       }
     }
+
+     */
   }
 
 
